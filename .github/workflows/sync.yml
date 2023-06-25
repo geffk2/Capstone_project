@@ -25,6 +25,6 @@ jobs:
           git fetch upstream
 
           # Neither forget the -b opt,
-          git checkout UnifAI origin/UnifAI
+          git checkout UnifAI 
           git merge --no-edit upstream/UnifAI
           git push origin UnifAI
